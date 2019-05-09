@@ -1,5 +1,6 @@
 package org.stodge.relationship_graph
 
-trait NodeTrait {
 
+trait NodeTrait extends {
+  val id: String
 }
